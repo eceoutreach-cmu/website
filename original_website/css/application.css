@@ -1,0 +1,145 @@
+/*
+CSS for ECE Outreach
+*/ 
+
+h1 {
+	margin: 0;
+	font-weight: bold;
+	font-size: 50px;
+	position: relative;
+	left: 430px;
+	font-style: normal;
+	font-family: Palatino Linotype;
+	color: #980f06;
+	top: 20px;
+	z-index: -2;
+	white-space:nowrap;
+}
+
+h2 {
+	
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	left: 430px;
+	font-style: normal;
+	font-family: Palatino Linotype;
+	color: #080808;
+	top: 15px;
+	z-index: -2;
+	
+}
+p{
+	margin-top: 30px;
+	font-family: Palatino Linotype;
+	font-size: 15px;
+	left: 430px;
+	text-align: left;
+	position: relative;
+	min-width: 500px;
+	width: 65%;
+	z-index: 0;
+}
+p:first-child{
+
+	font-weight:bold;
+}
+/* Background */
+
+body{
+	background-color: rgba(250, 236, 207, .4);
+	font-family: Palatino Linotype;
+	font-size: 12px;
+	color: #000;
+	z-index: 1;
+}
+
+p + ul{
+	font-family: Palatino Linotype;
+	font-size: 15px;
+	left: 430px;
+	text-align: left;
+	position: relative;
+	min-width: 500px;
+	width: 63%;
+	z-index: 0;
+}
+
+#background{
+	
+	width: 400px;
+	height: 100%;
+	position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: 1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+.vr {
+    width:3px;
+    background-color:#980f06;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:400px;
+	opaque:.8;
+}
+
+
+#logo{
+
+	position: fixed; 
+	top: 30px; 
+	left: 40px;
+	z-index: 1;
+}
+
+/* Menu */
+#menu {
+	position:fixed;
+	left: 25px;
+	top: 150px;
+	height: 36px;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+#menu ul{
+	margin: 0;
+	list-style: none;
+	border: #000;	
+	
+}
+
+#menu li {
+	display: block;
+	
+}
+
+#menu a {
+	display: block;
+	width: 300px;
+	height: 28px;
+	background-color: rgba(239, 201, 139, 0.6);
+	padding-top: 8px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Palatino Linotype;
+	font-size: 21;
+	font-weight: bold;
+	color: #000;
+	z-index: 1;
+	
+}
+
+#menu a:hover, #menu .current_page_item a {
+	
+	background-color: rgba(162, 15, 6, 0.8);
+	text-decoration: none;
+}
+
