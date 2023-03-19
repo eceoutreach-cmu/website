@@ -1,151 +1,92 @@
-body {
-  color: #7D7C7D;
-  line-height: 1.5;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+/* Custom Stylesheet */
+.lead-title {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
-/* HEADER */
-
-header {
-  margin: 0 auto;
-  text-align: center;
-  padding: 15px;
+.material-icons {
+    vertical-align: bottom;
+    padding-right: 10px;
 }
 
-/* NAV */
-nav {
-  padding-right: 20px;
-  text-transform: uppercase;
-  text-decoration: none; 
-  text-align: center;
-  max-width: 1000px;
-  margin: 0 auto;
+.top-cta {
+    padding-top: 2%;
 }
 
-/* CONTENT */
-
-div.content {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  max-width: 950
+.offer {
+    padding-top: 0;
+    padding-bottom: 2%;
 }
 
-div.content img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.btn-offer {
+    width: -webkit-fill-available;
 }
 
-table {
-  width: 100%;
+.hero-side {
+    background-image: url('https://cloud.google.com/_static/images/cloud/home/icon_hero_gear.png');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-table tr td {
-  vertical-align: top;
-  max-width: 400px;
+.nav-content {
+    margin: 15px 20px 15px 0;
 }
 
-dl dt {
-  font-size: 20;
-  font-weight: bold;
-  color: #463E3F;
+.promos {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-em {
-  color: #4E387E;
+.promo-title {
+    padding-top: 20px;
+    padding-bottom: 46px;
 }
 
-h1 {
-  color: #55B9AE;
+.btn-floating i {
+    text-align: end;
+    vertical-align: initial;
+    padding-right: 8px;
 }
 
-h3 {
-  text-transform: uppercase;
+.middle-banner {
+    padding: 50px 20px 20px;
 }
 
-div.content a {
-  color: #E0282B;
+nav .input-field {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 20px;
 }
 
-div.divider {
-  max-width: 1000px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+nav .brand-logo {
+    left:1%;
 }
 
-p.notice {
-  font-weight: bold;
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left:22%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+    .container.top-cta {
+        padding-top: 20%;
+    }
+    .offer-promo .col.s12, .promos .col.s12 {
+        padding-top: 10%;
+    }
+    .offer-promo .col.s12 .cards {
+        padding-top: 2%;
+    }
+    .btn-floating i {
+        text-align: end;
+        vertical-align: initial;
+        padding-right: 9px;
+    }
+    .promo-title {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
 }
-
-p a {
-  color: #E0282B;
-  font-weight: bold;
-}
-
-blockquote {
-  color: #55B9AE;
-}
-
-blockquote cite {
-  color: #7D7C7D;
-  font-size: 13;
-  padding: 20; 
-}
-
-content ul li {
-  color: #7D7C7D;
-  list-style: circle;
-}
-
-
-/* FOOTER */
-footer {
-  font-size: 10px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  max-width: 550;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-div iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* APPLICATION */
-p.programs {
-  text-align: justify;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-/* EVENTS */
-h3.event-title {
-  margin-bottom: 0px;
-}
-
-p.event-locale {
-  font-weight: bold;
-}
-
-p.event-description {
-  display: block;
-  max-width: 600px;
-}
-

@@ -1,212 +1,173 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>ECE Outreach</title>
-    <link rel="icon" type="image/png" href="/logos/favicon-32x32.png" sizes="32x32" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <head>
+        <title>ECE Outreach</title>
+        <link rel="icon" type="image/png" href="/logos/favicon-32x32.png" sizes="32x32" />
 
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/js/materialize.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+        <script src="https://kit.fontawesome.com/e7db445ea4.js" crossorigin="anonymous"></script>
+    </head>
 
-    <header>
-      <div class="container">
-        <div id ="logo">
-          <a href="/index.html">
-            <img class="responsive-img" src="/logos/logo1.png" width=400 />
-          </a>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="blue">
+                <div class="nav-wrapper container">
+                    <a href="/" class="brand-logo">Home</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/spark-saturdays.html">Spark Saturdays</a></li>
+                        <li><a href="/mobile-labs.html">Mobile Labs</a></li>
+                        <li><a href="/lab-materials.html">Lab Materials</a></li>
+                        <li><a href="/volunteers.html">Volunteers</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-      </div>
-    </header>
 
-    <ul id="spark" class="dropdown-content">
-      <li><a href="/spark-saturdays/program.html">The Program</a></li>
-      <li><a href="/spark-saturdays/labs.html">Labs</a></li>
-      <li><a href="/spark-saturdays/calendar.html">Calendar</a></li>
-      <li><a href="/spark-saturdays/register.html">Register</a></li>
-    </ul>
-    <ul id="mobile-labs" class="dropdown-content">
-      <li><a href="/mobile-labs/program.html">The Program</a></li>
-      <li><a href="/mobile-labs/labs.html">Labs</a></li>
-      <li><a href="/mobile-labs/calendar.html">Calendar</a></li>
-      <li><a href="/mobile-labs/register.html">Register</a></li><li>
-    </ul>
-    <!--
-       -<ul id="snap-circuits" class="dropdown-content">
-       -  <li><a href="/snap-circuits/program.html">The Program</a></li>
-       -  <li><a href="/snap-circuits/register.html">Register</a></li><li>
-       -</ul>
-       -->
-    <ul id="volunteers" class="dropdown-content">
-      <li><a href="/volunteers/positions.html">Get Involved</a></li>
-      <li><a href="/volunteers/calendar.html">Calendar</a></li>
-    </ul>
-
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" data-activates="mobile-demo" class="right button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="middle hide-on-med-and-down">
-          <li><a href="/index.html">Home</a></li>
-          <li class="active"><a href="/about.html">About Us</a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="spark">SPARK Saturdays &#9662</a></li>
-          <li><a class="dropdown-button" href="#!" data-activates="mobile-labs">Mobile Labs &#9662</a></li>
-          <!--
-             -<li><a class="dropdown-button" href="#!" data-activates="snap-circuits">Snap Circuits &#9662</a></li>
-             -->
-          <li><a class="dropdown-button" href="#!" data-activates="volunteers">Volunteers &#9662</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+        <!-- Mobile Slide Nav goes here -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/spark-saturdays.html">Spark Saturdays</a></li>
+            <li><a href="/mobile-labs.html">Mobile Labs</a></li>
+            <li><a href="/lab-materials.html">Lab Materials</a></li>
+            <li><a href="/volunteers.html">Volunteers</a></li>
+            <li><a href="/contact.html">Contact</a></li>
         </ul>
 
-        <ul id="mobile-demo" class="side-nav">
-          <li><a href="/index.html">Home</a></li>
-          <li class="active"><a href="/about.html">About Us</a></li>
+        <div class="container-fluid">
+            <!-- Page Content goes here -->
+            <div class="container">
+                <h1>About Us</h1>
 
-          <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-              <li>
-                <a class="collapsible-header">SPARK Saturdays<i class="mdi-navigation-arrow-drop-down"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="/spark-saturdays/program.html">The Program</a></li>
-                    <li><a href="/spark-saturdays/labs.html">Labs</a></li>
-                    <li><a href="/spark-saturdays/calendar.html">Calendar</a></li>
-                    <li><a href="/spark-saturdays/register.html">Register</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
+                <h2> What programs do you run? </h2>
+                <p>
+                    Currently, we run two programs, <a href="/spark-saturdays.html"><strong>SPARK Saturdays</strong></a> and <a href="/mobile-labs.html"><strong>Mobile Labs</strong></a>, specifically geared toward high school and middle school students.
+                </p>
 
-          <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-              <li>
-                <a class="collapsible-header">Mobile Labs<i class="mdi-navigation-arrow-drop-down"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="/mobile-labs/program.html">The Program</a></li>
-                    <li><a href="/mobile-labs/labs.html">Labs</a></li>
-                    <li><a href="/mobile-labs/calendar.html">Calendar</a></li>
-                    <li><a href="/mobile-labs/register.html">Register</a></li><li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
+                <h2> What do your programs consist of? </h2>
+                <p>
+                    Currently, <strong>SPARK Saturdays</strong> is structured to be around 4-5 lab sessions, held on
+                    campus about every Saturday. Each session will last about two hours and consist of a learning portion
+                    and a hands-on activity, led by CMU students. The entire SPARK Saturdays program is held once every
+                    semester, and aimed at high school students. No prior knowledge on the part of the students is assumed.
+                    The sessions are structured to introduce students to a wide variety of electrical and computer engineering
+                    concepts to help them decide whether this might be a good career path for them.
+                </p>
+                <p>
+                    Our <strong>Mobile Labs</strong> program is an adaptation of SPARK Saturdays, still geared toward
+                    high school students, but that we bring to schools. The labs are held after school on an average weekday
+                    to interested students.
+                </p>
 
-          <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-              <li>
-                <a class="collapsible-header">Snap Circuits<i class="mdi-navigation-arrow-drop-down"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="/snap-circuits/program.html">The Program</a></li>
-                    <li><a href="/snap-circuits/register.html">Register</a></li><li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
+                <h2>What is the history of your programs?</h2>
+                <p>
+                    We began creating sessions for the SPARK Saturdays program in Fall 2012, and held our first two sessions
+                    in Spring 2013. In Spring 2015 we expanded our reach to middle school students and local high schools
+                    through the Snap Circuit Lab and the Mobile Labs programs, respectively. We hope to keep expanding in
+                    the future. Professor Tom Sullivan has been the faculty sponsor at CMU for ECE Outreach since its onset.
+                </p>
 
-          <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-              <li>
-                <a class="collapsible-header">Volunteers<i class="mdi-navigation-arrow-drop-down"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="/volunteers/positions.html">Get Involved</a></li>
-                    <li><a href="/volunteers/calendar.html">Calendar</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
+                <h2>How do I sign up for the SPARK Saturdays program?</h2>
+                <p>
+                    In the navigation bar above, click on Spark Saturdays, then go to the Register section. Unfortunately,
+                    due to limited resources we're not able to accept all those interested, but we're making every effort
+                    to expand our programs.
+                </p>
 
-          <li><a href="/contact.html">Contact</a></li>
+                <h2>How do I sign up for the Mobile Labs program?</h2>
+                <p>
+                    If you are part of a local high school (staff, teacher, etc.), please click on Mobile Labs in the
+                    navigation bar above, then go to the Register section.
+                </p>
 
-        </ul>
-      </div>
-    </nav>
+                <h2>Can I use your materials?</h2>
+                <p>
+                    Yes, our materials are free for public use. If you do decide to use them, please send us an email or
+                    use our Contact page to let us know because we'd love to hear about how our sessions are being used!
+                </p>
 
-    <div class="content">
-      <h1>About Us</h1>
+                <h2>Who are the volunteers?</h2>
+                <p>
+                    Our volunteers are Carnegie Mellon University undergradute and graduate students who are studying
+                    Electrical and Computer Engineering.
+                </p>
+                <p>
+                    Our faculty mentor is
+                    <a href="https://www.ece.cmu.edu/directory/department/faculty/S/Thomas_Sullivan_172.html" target="_blank">Professor Tom Sullivan</a>.
+                </p>
 
-      <h2> What programs do you run? </h2>
-      <p>
-        Currently, we run two programs, <a href="/spark-saturdays/program.html"><strong>SPARK Saturdays</strong></a> and <a href="/mobile-labs/program.html"><strong>Mobile Labs</strong></a>, specifically geared toward high school and middle school students.
-      </p>
+                <h2>How do I become a volunteer?</h2>
+                <p>
+                    We are always in need of more volunteers to do everything from helping run the sessions to creating
+                    lab modules to generating publicity to contacting sponsors. We'd love to have you work with us. Please
+                    use the Contact page to get in touch with us and express your interest and you'll hear back from us very soon.
+                </p>
 
-      <h2> What do your programs consist of? </h2>
-      <p>
-        Currently, <strong>SPARK Saturdays</strong> is structured to be four to six sessions, held on campus about every Saturday. Each session will last about two hours and consist of a learning portion and a hands-on activity, led by CMU students. The entire SPARK Saturdays program is held once every semester, and aimed at high school students. No prior knowledge on the part of the students is assumed. The sessions are structured to introduce students to a wide variety of electrical and computer engineering concepts to help them decide whether this might be a good career path for them.
-       </p>
-       <p>
-        Our <strong>Mobile Labs</strong> program is an adaptation of SPARK Saturdays, still geared toward high school students, but that we bring to schools. The labs are held after school on an average weekday to interested students.
-      </p>
+                <h2>Do you have any summer programs? / Where can I find other programs like this for my student?</h2>
+                <p>
+                    Carnegie Mellon's Leonard Gelfand Center for Service Learning & Outreach has a great list of
+                    STEM-related and other programs for
+                    <a href="http://www.cmu.edu/gelfand/k12-students-parents/highschoolprograms.html">high school students</a>,
+                    <a href="http://www.cmu.edu/gelfand/k12-students-parents/middleprograms.html">middle school students</a>,
+                    and even <a href="http://www.cmu.edu/gelfand/k12-students-parents/elemprograms.html">grade school students</a>!
+                </p>
+                <p>
+                    <a href="mailto:stefanig@andrew.cmu.edu">Stefanie Garcia</a> (the outreach coordinator for CMU's
+                    College of Engineering) is also a great contact for these types of programs.
+                </p>
 
-      <h2>What is the history of your programs?</h2>
-      <p>
-        We began creating sessions for the SPARK Saturdays program in Fall 2012, and held our first two sessions in Spring 2013. In Spring 2015 we expanded our reach to middle school students and local high schools through the Snap Circuit Lab and the Mobile Labs programs, respectively. We hope to keep expanding in the future. Professor Tom Sullivan has been the faculty sponsor at CMU for ECE Outreach since its onset.
-      </p>
-
-      <h2>How do I sign up for the SPARK Saturdays program?</h2>
-      <p>
-        In the navigation bar, click on the program you would like to register your student for, then choose the Register page for that program. Unfortunately, due to limited resources we're not able to accept all those interested, but we're making every effort to expand our programs.
-      </p>
-
-      <h2>Can I use your materials?</h2>
-      <p>
-        Yes, our materials are free for public use. If you do decide to use them, please send us an email or use our Contact Us page to let us know because we'd love to hear about how our sessions are being used!
-      </p>
-
-      <h2>Who are the volunteers?</h2>
-      <p>
-        Our volunteers are Carnegie Mellon University undergradute and graduate students who are studying Electrical and Computer Engineering.
-      </p>
-      <p>
-        Our faculty mentor is <a href="https://www.ece.cmu.edu/directory/department/faculty/S/Thomas_Sullivan_172.html" target="_blank">Professor Tom Sullivan</a>.
-      </p>
-
-      <h2>How do I become a volunteer?</h2>
-      <p>
-        We are always in need of more volunteers to do everything from helping run the sessions to creating lab modules to generating publicity to contacting sponsors. We'd love to have you work with us. Please use the Contact Us page to get in touch with us and express your interest and you'll hear back from us very soon.
-      </p>
-
-      <h2>Do you have any summer programs? / Where can I find other programs like this for my student?</h2>
-      <p>
-        Carnegie Mellon's Leonard Gelfand Center for Service Learning & Outreach has a great list of STEM-related and other programs for <a href="http://www.cmu.edu/gelfand/k12-students-parents/highschoolprograms.html">high school students</a>, <a href="http://www.cmu.edu/gelfand/k12-students-parents/middleprograms.html">middle school students</a>, and even <a href="http://www.cmu.edu/gelfand/k12-students-parents/elemprograms.html">grade school students</a>!
-      </p>
-
-      <h2>What if I have more questions?</h2>
-      <p>
-        If your question wasn't answered above, please get in touch with us using our <a href="/contact.html">Contact</a> page! We will respond as quickly as we can.
-      </p>
-    </div>
-
-    <div class="divider"></div>
-    <footer>
-      <div class="row">
-        <div class="col l2 m2 s12">
-          <a href="http://www.cmu.edu/">
-            <img src="/logos/cmu.png" height=50 />
-          </a>
+                <h2>What if I have more questions?</h2>
+                <p>
+                    If your question wasn't answered above, please get in touch with us using our
+                    <a href="/contact.html">Contact</a> page! We will respond as quickly as we can.
+                </p>
+            </div>
         </div>
-        <div class="col l6 m6 s12">
-          <a href="https://www.ece.cmu.edu/">
-            <img src="/logos/ece.png" height=40 />
-          </a>
-        </div>
-        <div class="col l4 m4 s12">
-          <img src="/logos/logo2.png" height=50 />
-        </div>
-      </div>
-    </footer>
-  </body>
+
+        <div class="divider"></div>
+        <footer class="page-footer blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 m4 s12 center">
+                <a href="http://www.cmu.edu/">
+                  <img src="/logos/cmu.png" height=50 />
+                </a>
+              </div>
+              <div class="col l4 m4 s12 center">
+                <a href="https://www.ece.cmu.edu/">
+                  <img src="/logos/ece.png" height=40 />
+                </a>
+              </div>
+              <div class="col l4 m4 s12 center">
+                <img src="/logos/logo2.png" height=50 />
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+              <div class="container">
+                © 2023 ECE Outreach
+              </div>
+          </div>
+        </footer>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                let elems = document.querySelectorAll('.sidenav')
+                let instances = M.Sidenav.init(elems)
+            })
+        </script>
+    </body>
 </html>
