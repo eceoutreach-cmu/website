@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "eceoutreach@gmail.com"; //"you@yourdomain.com";
+    $email_to = "ece-outreach@andrew.cmu.edu"; //"you@yourdomain.com";
     $email_subject = "[ECE Outreach] Website Contact Form"; //"Your email subject line";
 
 
